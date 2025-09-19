@@ -53,4 +53,27 @@ public class Kölcsönzes {
     public void setVisszahozPerc(int visszahozPerc) {
         this.visszahozPerc = visszahozPerc;
     }
+
+    public Kölcsönzes(){
+        //TODO
+    }
+    public Kölcsönzes(
+            String nev,
+            char jarmu,
+            int elvitelOra,
+            int elvitelPerc,
+            int visszahozOra,
+            int visszahozPerc
+    ){
+        setNev(nev);
+        setJarmu(jarmu);
+        setElvitelOra(elvitelOra);
+        setElvitelPerc(elvitelPerc);
+        setVisszahozOra(visszahozOra);
+        setVisszahozPerc(visszahozPerc);
+    }
+    public Kölcsönzes(String fileline){
+
+    }
+
 }
